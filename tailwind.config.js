@@ -19,14 +19,14 @@ module.exports = {
         },
         extend: {
             fontFamily: {
-                josefinSans: "Josefin Sans, sans-serif",
-                josefinSlab: "Josefin Slab, serif",
-                belle: "La Belle Aurore, cursive",
+                paris: "Parisienne, cursive",
+                meow: "Meow Script, cursive",
+                garamond: "EB Garamond, serif",
             },
             colors: {
                 offWhite: "#f2f2f2",
                 offBlack: "#181818",
-                greige: "#e6dcd3",
+                greige: "#D9D4CF",
                 midGreige: "#b4a793",
                 btnHover: "#bda18c",
                 btnNormal: "#5d4e41 ",
