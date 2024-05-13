@@ -724,6 +724,11 @@ video {
   border-left-color: rgb(85 78 148 / var(--tw-border-opacity));
 }
 
+.border-b-offBlack {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(24 24 24 / var(--tw-border-opacity));
+}
+
 .bg-blue-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
@@ -847,6 +852,36 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-offBlack {
+  --tw-text-opacity: 1;
+  color: rgb(24 24 24 / var(--tw-text-opacity));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.drop-shadow-md {
+  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .duration-500 {
   transition-duration: 500ms;
 }
@@ -945,6 +980,11 @@ video {
     line-height: 1.75rem;
   }
 
+  .laptop\:text-offBlack {
+    --tw-text-opacity: 1;
+    color: rgb(24 24 24 / var(--tw-text-opacity));
+  }
+
   .laptop\:shadow-md {
     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -978,6 +1018,29 @@ video {
   .hd\:py-60 {
     padding-top: 15rem;
     padding-bottom: 15rem;
+  }
+
+  .hd\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .hd\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .hd\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .hd\:font-semibold {
+    font-weight: 600;
+  }
+
+  .hd\:font-thin {
+    font-weight: 100;
   }
 }
 

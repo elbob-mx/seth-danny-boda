@@ -27,8 +27,8 @@
     </section>
 
     <!-- mobile navbar -->
-    <nav class="sticky top-0 bg-offWhite">
-        <div class="laptop:hidden flex flex-wrap items-center justify-end p-4 px-6 border-b-[1px] border-b-purpleLight flex-end mb-10">
+    <nav class="sticky top-0 bg-offWhite drop-shadow-md">
+        <div class="laptop:hidden flex flex-wrap items-center justify-end p-4 px-6 border-b-[1px] border-b-offBlack flex-end mb-10">
             <!-- burger menu button -->
             <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm rounded-lg text-btnNormal hover:text-offWhite md:hidden hover:bg-btnNormal focus:outline-none focus:ring-2 focus:ring-purpleDark" aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Abrir menú</span>
@@ -40,10 +40,13 @@
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="flex flex-col p-4 mt-4 font-garamond md:p-0 bg-offWhite md:flex-row laptop:space-x-8 rtl:space-x-reverse">
                     <li>
-                        <a href="#padrinos" class="block text-2xl text-center" aria-current="page">Padrinos</a>
+                        <a href="#padrinos" class="block text-2xl text-center" aria-current="page">· Padrinos ·</a>
                     </li>
                     <li>
-                        <a href="#saber" class="block px-3 py-2 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Lo que debes saber</a>
+                        <a href="#saber" class="block text-2xl text-center" aria-current="page">· Lo que debes saber ·</a>
+                    </li>
+                    <li>
+                        <a href="#saber" class="block text-2xl text-center" aria-current="page">· Regalos ·</a>
                     </li>
                 </ul>
             </div>
@@ -53,20 +56,20 @@
 
     <!-- regular navbar -->
     <nav class="hidden laptop:sticky laptop:top-0 laptop:bg-offWhite laptop:flex laptop:flex-row laptop:justify-between laptop:px-40 laptop:py-4 laptop:border-b-[1px] laptop:border-b-btnNormal laptop:mb-20 laptop:font-garamond laptop:text-xl laptop:shadow-md">
-        <a class="duration-500 hover:laptop:text-purpleMid" href="#padrinos">Nuestros Padrinos</a>
-        <a class="duration-500 hover:laptop:text-purpleMid" href="#saber">Lo que debes saber</a>
-        <a class="duration-500 hover:laptop:text-purpleMid" href="#regalos">Regalos</a>
+        <a class="duration-500 hover:laptop:text-purpleMid laptop:text-offBlack" href="#padrinos">Nuestros Padrinos</a>
+        <a class="duration-500 hover:laptop:text-purpleMid laptop:text-offBlack" href="#saber">Lo que debes saber</a>
+        <a class="duration-500 hover:laptop:text-purpleMid laptop:text-offBlack" href="#regalos">Regalos</a>
     </nav>
     <!-- END regular navbar -->
 
     <main class="grid px-12 ipad:px-40">
-
-        <section id="padrinos" class="p-4 text-lg border-t-2 border-b-2 font-garamond border-purpleLight">
-            <h2 class="mb-6 text-4xl font-garamond">Nuestros Padrinos de Velación.</h2>
-            <p class="text-2xl">Zully Morales Camiruaga.</p>
-            <p class="text-2xl">Gerardo Ramirez Ruiz.</p>
+        <section id="padrinos" class="text-lg font-garamond text-offBlack">
+            <h2 class="mb-6 text-4xl hd:text-6xl font-garamond">Nuestros Padrinos de Velación.</h2>
+            <p class="text-2xl hd:text-4xl">Zully Morales Camiruaga.</p>
+            <p class="text-2xl hd:text-4xl">Gerardo Ramirez Ruiz.</p>
         </section>
 
+        <hr class="py-[1px] bg-btnNormal my-6">
 
         <h2 class="text-3xl font-garamond">Lorem, ipsum.</h2>
         <img src="./assets/img/stock-web-2.jpg" alt="manos" class="my-6">
