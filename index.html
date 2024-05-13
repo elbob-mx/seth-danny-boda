@@ -14,55 +14,93 @@
     <link rel="stylesheet" href="./public/style.css" />
 </head>
 
-<body class="w-full bg-purpleDark">
+<body class="w-full bg-offWhite">
 
     <section class="relative flex flex-col items-center justify-center">
-        <div class="absolute">
+        <!-- square inside main banner -->
+        <div class="absolute px-6 py-20 border-2 hd:px-20 hd:py-60 bg-btnNormal/75 border-offWhite">
             <h1 class="text-4xl text-center font-paris ipad:text-7xl text-offWhite">Seth & Danny</h1>
             <h2 class="text-2xl text-center font-garamond text-offWhite">· 20 · 8 · 24 ·</h2>
         </div>
         <img src="./assets/img/stock-wed.jpg" alt="novios" class="object-cover w-full h-screen">
+        <!-- END square inside main banner -->
     </section>
 
+    <!-- mobile navbar -->
     <nav class="sticky top-0 bg-offWhite">
-        <div class="flex flex-wrap items-center justify-between p-4 mx-auto">
-            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
+        <div class="laptop:hidden flex flex-wrap items-center justify-end p-4 px-6 border-b-[1px] border-b-purpleLight flex-end mb-10">
+            <!-- burger menu button -->
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm rounded-lg text-btnNormal hover:text-offWhite md:hidden hover:bg-btnNormal focus:outline-none focus:ring-2 focus:ring-purpleDark" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Abrir menú</span>
                 <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
                 </svg>
             </button>
+
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                <ul class="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                <ul class="flex flex-col p-4 mt-4 font-garamond md:p-0 bg-offWhite md:flex-row laptop:space-x-8 rtl:space-x-reverse">
                     <li>
-                        <a href="#" class="block px-3 py-2 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+                        <a href="#padrinos" class="block text-2xl text-center" aria-current="page">Padrinos</a>
                     </li>
                     <li>
-                        <a href="#" class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                        <a href="#saber" class="block px-3 py-2 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Lo que debes saber</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- END mobile navbar -->
 
-    <section>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
-    </section>
-    <section>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
-    </section>
-    <section>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
-    </section>
+    <!-- regular navbar -->
+    <nav class="hidden laptop:sticky laptop:top-0 laptop:bg-offWhite laptop:flex laptop:flex-row laptop:justify-between laptop:px-40 laptop:py-4 laptop:border-b-[1px] laptop:border-b-btnNormal laptop:mb-20 laptop:font-garamond laptop:text-xl laptop:shadow-md">
+        <a class="duration-500 hover:laptop:text-purpleMid" href="#padrinos">Nuestros Padrinos</a>
+        <a class="duration-500 hover:laptop:text-purpleMid" href="#saber">Lo que debes saber</a>
+        <a class="duration-500 hover:laptop:text-purpleMid" href="#regalos">Regalos</a>
+    </nav>
+    <!-- END regular navbar -->
+
+    <main class="grid px-12 ipad:px-40">
+
+        <section id="padrinos" class="p-4 text-lg border-t-2 border-b-2 font-garamond border-purpleLight">
+            <h2 class="mb-6 text-4xl font-garamond">Nuestros Padrinos de Velación.</h2>
+            <p class="text-2xl">Zully Morales Camiruaga.</p>
+            <p class="text-2xl">Gerardo Ramirez Ruiz.</p>
+        </section>
+
+
+        <h2 class="text-3xl font-garamond">Lorem, ipsum.</h2>
+        <img src="./assets/img/stock-web-2.jpg" alt="manos" class="my-6">
+        <section id="saber" class="text-lg font-garamond">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
+        </section>
+        <hr>
+        <section id="" class="text-lg font-garamond">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
+        </section>
+        <section id="padrinos" class="text-lg font-garamond">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
+        </section>
+        <hr>
+        <section id="saber" class="text-lg font-garamond">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
+        </section>
+        <hr>
+        <section id="" class="text-lg font-garamond">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
+        </section>
+        <section id="" class="text-lg font-garamond">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
+        </section>
+        <section id="" class="text-lg font-garamond">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
+        </section>
+        <section id="" class="text-lg font-garamond">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
+        </section>
+        <section id="" class="text-lg font-garamond">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
+        </section>
+    </main>
 
 
 </body>
