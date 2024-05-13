@@ -29,6 +29,7 @@ module.exports = {
                 purpleDark: "#554e94",
                 purpleMid: "#8a71d6",
                 purpleLight: "#c3b0de",
+                purpleLighter: "#ebe3f8 ",
                 btnNormal: "#292547",
             },
         },

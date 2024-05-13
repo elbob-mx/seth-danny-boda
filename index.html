@@ -20,15 +20,16 @@
         <!-- square inside main banner -->
         <div class="absolute px-6 py-20 border-2 hd:px-20 hd:py-60 bg-btnNormal/75 border-offWhite">
             <h1 class="text-4xl text-center font-paris ipad:text-7xl text-offWhite">Seth & Danny</h1>
-            <h2 class="mt-3 text-2xl text-center laptop:mt-6 laptop:text-3xl font-garamond text-offWhite">· 20 · 8 · 24 ·</h2>
+            <h2 class="mt-3 text-2xl text-center laptop:mt-6 laptop:text-3xl font-garamond text-offWhite">· 17 · 8 · 24 ·</h2>
         </div>
         <img src="./assets/img/stock-wed.jpg" alt="novios" class="object-cover w-full h-screen">
         <!-- END square inside main banner -->
     </section>
 
     <!-- mobile navbar -->
-    <nav class="sticky top-0 bg-offWhite drop-shadow-md">
-        <div class="laptop:hidden flex flex-wrap items-center justify-end p-4 px-6 border-b-[1px] border-b-offBlack flex-end mb-10">
+    <nav class="sticky top-0 bg-offWhite drop-shadow-lg">
+        <div class="laptop:hidden flex flex-wrap items-center justify-between p-4 px-6 border-b-[1px] border-b-transparent flex-end mb-10">
+            <div class="text-2xl font-paris">Seth & Danny</div>
             <!-- burger menu button -->
             <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm rounded-lg text-btnNormal hover:text-offWhite md:hidden hover:bg-btnNormal focus:outline-none focus:ring-2 focus:ring-purpleDark" aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Abrir menú</span>
@@ -54,66 +55,102 @@
     </nav>
     <!-- END mobile navbar -->
 
-    <!-- regular navbar -->
-    <nav class="hidden laptop:sticky laptop:top-0 laptop:bg-offWhite laptop:flex laptop:flex-row laptop:justify-between laptop:px-40 laptop:py-4 laptop:border-b-[1px] laptop:border-b-btnNormal laptop:mb-20 laptop:font-garamond laptop:text-xl laptop:shadow-md">
-        <a class="duration-500 h-fit hover:laptop:text-offWhite hover:laptop:bg-btnNormal laptop:text-offBlack" href="#padrinos">Nuestros Padrinos</a>
-        <a class="duration-500 hover:laptop:text-purpleMid laptop:text-offBlack" href="#saber">Lo que debes saber</a>
-        <a class="duration-500 hover:laptop:text-purpleMid laptop:text-offBlack" href="#regalos">Regalos</a>
-    </nav>
-    <!-- END regular navbar -->
+    <section class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-20">
 
-    <main class="grid gap-6 px-12 laptop:grid-cols-3 ipad:px-40">
-
-        <section id="padrinos" class="p-6 mb-20 text-lg border-[1px] border-purpleMid laptop:p-12 font-garamond text-btnNormal">
-            <h2 class="mb-6 text-5xl hd:text-6xl font-garamond">El mejor tipo de amor es el que despierta el alma y nos hace aspirar a más.</h2>
-            <hr class="bg-purpleMid h-[2px]">
+        <!-- intro copy -->
+        <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:border-r-[1px] laptop:border-r-purpleMid laptop:p-12 font-garamond text-btnNormal">
+            <img src="./assets/img/stock-web-2.jpg" alt="novios" class="object-cover pb-6">
+            <h2 class="pl-3 text-5xl border-l-2 hd:text-5xl xl font-garamond laptop:border-none border-l-purpleDark laptop:p-0">El mejor tipo de amor es el que despierta el alma y nos hace aspirar a más.</h2>
             <p class="mt-6 text-2xl hd:text-3xl">Tenemos el honor de invitarles a celebrar nuestro enlace matrimonial con la Bendición de Dios y nuestros padres:</p>
-        </section>
+            <ul class="mt-6 text-xl italic text-gray-500 laptop:text-2xl">
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>&</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+            </ul>
+        </div>
 
-        <section id="padrinos" class="col-span-2 p-6 mb-20 text-lg text-center laptop:p-12 font-garamond text-btnNormal bg-purpleLight">
+        <!-- padrinos velacion -->
+        <div id="padrinos" class="justify-center col-span-1 row-span-1 pb-3 text-lg border-r-none border-b-[1px] laptop:border-b-0 border-b-purpleLight laptop:p-6 font-garamond text-btnNormal mt-10 laptop:mt-0">
             <div class="flex flex-col align-middle">
-                <h2 class="pl-4 mb-6 text-5xl hd:text-6xl font-garamond">Nuestros Padrinos de Velación.</h2>
-                <p class="text-2xl hd:text-4xl">· Zully Morales Camiruaga.</p>
-                <p class="text-2xl hd:text-4xl">· Gerardo Ramirez Ruiz.</p>
+                <img src="./assets/icons/noun-candles-4017642.svg" alt="velas" class="w-16 pb-3 laptop:w-20">
+                <h2 class="mb-3 text-3xl font-garamond">Padrinos de Velación:</h2>
+                <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
+                <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
             </div>
-        </section>
+        </div>
 
-        <hr class="py-[1px] bg-btnNormal my-6">
+        <!-- padrinos anillos -->
+        <div class="justify-center col-span-1 row-span-1 pb-3 text-lg border-r-none border-b-[1px] laptop:border-b-0 border-b-purpleLight laptop:p-6 font-garamond text-btnNormal">
+            <div class="flex flex-col align-middle">
+                <img src="./assets/icons/noun-ring-4017603.svg" alt="anillos de boda" class="w-16 pb-3 laptop:w-20">
+                <h2 class="mb-3 text-3xl font-garamond">Padrinos de Anillos:</h2>
+                <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
+                <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+            </div>
+        </div>
 
-        <h2 class="text-3xl font-garamond">Lorem, ipsum.</h2>
-        <img src="./assets/img/stock-web-2.jpg" alt="manos" class="my-6">
-        <section id="saber" class="text-lg font-garamond">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
-        </section>
-        <hr>
-        <section id="" class="text-lg font-garamond">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
-        </section>
-        <section id="padrinos" class="text-lg font-garamond">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
-        </section>
-        <hr>
-        <section id="saber" class="text-lg font-garamond">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
-        </section>
-        <hr>
-        <section id="" class="text-lg font-garamond">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
-        </section>
-        <section id="" class="text-lg font-garamond">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
-        </section>
-        <section id="" class="text-lg font-garamond">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
-        </section>
-        <section id="" class="text-lg font-garamond">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
-        </section>
-        <section id="" class="text-lg font-garamond">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis exercitationem natus impedit iure magni! Quos illo, non dignissimos voluptas, deleniti excepturi consectetur odit ut repellat neque et cum iure voluptates blanditiis, a commodi harum enim laudantium nisi maiores unde? Nisi eum quis alias voluptatum illo facere, autem adipisci beatae modi, quidem exercitationem praesentium mollitia reiciendis quaerat facilis, laborum suscipit aut. Modi illo amet aperiam totam ullam sapiente, eum inventore ducimus eligendi optio placeat laboriosam, deleniti numquam quia error libero, vero blanditiis quasi dicta. Voluptate delectus vel alias eum molestiae exercitationem cumque, porro, sit animi eos error ut, sapiente enim expedita!</p>
-        </section>
-    </main>
+        <!-- padrinos arras -->
+        <div class="justify-center col-span-1 row-span-1 pb-3 text-lg border-r-none border-b-[1px] laptop:border-b-0 border-b-purpleLight laptop:p-6 font-garamond text-btnNormal">
+            <div class="flex flex-col align-middle">
+                <img src="./assets/icons/noun-arras.svg" alt="anillos de boda" class="w-16 pb-3 laptop:w-20">
+                <h2 class="mb-3 text-3xl font-garamond">Padrinos de Arras:</h2>
+                <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
+                <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+            </div>
+        </div>
 
+        <!-- padrinos lazo -->
+        <div class="justify-center col-span-1 row-span-1 pb-3 text-lg border-r-none border-b-[1px] laptop:border-b-0 border-b-purpleLight laptop:p-6 font-garamond text-btnNormal">
+            <div class="flex flex-col align-middle">
+                <img src="./assets/icons/noun-rope-6562680.svg" alt="lazo de boda" class="w-16 pb-3 laptop:w-20">
+                <h2 class="mb-3 text-3xl font-garamond">Padrinos de Lazo:</h2>
+                <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
+                <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+            </div>
+        </div>
+
+        <!-- padrinos ramo -->
+        <div class="flex flex-col justify-center col-span-1 row-span-1 pb-3 text-lg border-r-none laptop:border-b-0 laptop:p-3 font-garamond text-btnNormal">
+            <div class="flex flex-col align-middle">
+                <img src="./assets/icons/noun-rose-4017610.svg" alt="ramo de boda" class="w-16 pb-3 laptop:w-20">
+                <h2 class="mb-3 text-3xl font-garamond">Padrinos de Ramo:</h2>
+                <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
+                <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+            </div>
+        </div>
+
+        <!-- misc image  -->
+        <div class="flex flex-col justify-center col-span-1 row-span-1 text-lg font-garamond text-btnNormal">
+            <img src="./assets/img/ben-rosett-w4bp40RJZ9M-unsplash.jpg" alt="" class="object-cover">
+        </div>
+    </section>
+
+
+    <!-- LO QUE DEBES SABER -->
+    <section id="saber" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-20 bg-purpleDark">
+        <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:border-r-[1px] laptop:border-r-purpleMid laptop:p-12 font-garamond text-offWhite">
+            <h2 class="pl-3 text-5xl hd:text-5xl font-garamond laptop:p-0">Lo que debes saber:</h2>
+        </div>
+    </section>
+
+
+    <!-- REGALOS -->
+    <section id="saber" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-20 bg-offWhite">
+        <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:border-r-[1px] laptop:border-r-purpleMid laptop:p-12 font-garamond text-btnNormal">
+            <h2 class="pl-3 text-5xl hd:text-5xl font-garamond laptop:p-0">Opciones de regalos:</h2>
+        </div>
+    </section>
+
+    <!-- ASISTENCIA -->
+    <section id="saber" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-1 ipad:p-20 bg-purpleDark">
+        <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-12 font-garamond text-offWhite">
+            <h2 class="pl-3 text-5xl hd:text-5xl font-garamond laptop:p-0">Asistencia</h2>
+        </div>
+    </section>
+
+    <footer class="w-full h-auto px-8 py-20 text-center bg-btnNormal font-garamond text-offWhite">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, nisi.</footer>
 
 </body>
 
