@@ -20,7 +20,7 @@
         <!-- square inside main banner -->
         <div class="absolute px-6 py-20 border-2 hd:px-20 hd:py-60 bg-btnNormal/75 border-offWhite">
             <h1 class="text-4xl text-center font-paris ipad:text-7xl text-offWhite">Seth & Danny</h1>
-            <h2 class="text-2xl text-center font-garamond text-offWhite">· 20 · 8 · 24 ·</h2>
+            <h2 class="mt-3 text-2xl text-center laptop:mt-6 laptop:text-3xl font-garamond text-offWhite">· 20 · 8 · 24 ·</h2>
         </div>
         <img src="./assets/img/stock-wed.jpg" alt="novios" class="object-cover w-full h-screen">
         <!-- END square inside main banner -->
@@ -56,17 +56,26 @@
 
     <!-- regular navbar -->
     <nav class="hidden laptop:sticky laptop:top-0 laptop:bg-offWhite laptop:flex laptop:flex-row laptop:justify-between laptop:px-40 laptop:py-4 laptop:border-b-[1px] laptop:border-b-btnNormal laptop:mb-20 laptop:font-garamond laptop:text-xl laptop:shadow-md">
-        <a class="duration-500 hover:laptop:text-purpleMid laptop:text-offBlack" href="#padrinos">Nuestros Padrinos</a>
+        <a class="duration-500 h-fit hover:laptop:text-offWhite hover:laptop:bg-btnNormal laptop:text-offBlack" href="#padrinos">Nuestros Padrinos</a>
         <a class="duration-500 hover:laptop:text-purpleMid laptop:text-offBlack" href="#saber">Lo que debes saber</a>
         <a class="duration-500 hover:laptop:text-purpleMid laptop:text-offBlack" href="#regalos">Regalos</a>
     </nav>
     <!-- END regular navbar -->
 
-    <main class="grid px-12 ipad:px-40">
-        <section id="padrinos" class="text-lg font-garamond text-offBlack">
-            <h2 class="mb-6 text-4xl hd:text-6xl font-garamond">Nuestros Padrinos de Velación.</h2>
-            <p class="text-2xl hd:text-4xl">Zully Morales Camiruaga.</p>
-            <p class="text-2xl hd:text-4xl">Gerardo Ramirez Ruiz.</p>
+    <main class="grid gap-6 px-12 laptop:grid-cols-3 ipad:px-40">
+
+        <section id="padrinos" class="p-6 mb-20 text-lg border-[1px] border-purpleMid laptop:p-12 font-garamond text-btnNormal">
+            <h2 class="mb-6 text-5xl hd:text-6xl font-garamond">El mejor tipo de amor es el que despierta el alma y nos hace aspirar a más.</h2>
+            <hr class="bg-purpleMid h-[2px]">
+            <p class="mt-6 text-2xl hd:text-3xl">Tenemos el honor de invitarles a celebrar nuestro enlace matrimonial con la Bendición de Dios y nuestros padres:</p>
+        </section>
+
+        <section id="padrinos" class="col-span-2 p-6 mb-20 text-lg text-center laptop:p-12 font-garamond text-btnNormal bg-purpleLight">
+            <div class="flex flex-col align-middle">
+                <h2 class="pl-4 mb-6 text-5xl hd:text-6xl font-garamond">Nuestros Padrinos de Velación.</h2>
+                <p class="text-2xl hd:text-4xl">· Zully Morales Camiruaga.</p>
+                <p class="text-2xl hd:text-4xl">· Gerardo Ramirez Ruiz.</p>
+            </div>
         </section>
 
         <hr class="py-[1px] bg-btnNormal my-6">
