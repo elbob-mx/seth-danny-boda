@@ -16,8 +16,7 @@
 
 <body class="w-full bg-offWhite">
     <main>
-
-        <section class="relative flex flex-col items-center justify-center">
+        <section class="relative flex flex-col items-center justify-center h-screen">
             <!-- square inside main banner -->
             <div class="absolute px-6 py-20 border-2 hd:px-20 hd:py-60 bg-btnNormal/75 border-offWhite">
                 <h1 class="text-4xl text-center font-paris ipad:text-7xl text-offWhite">Seth & Danny</h1>
@@ -32,7 +31,7 @@
         </section>
 
         <!-- mobile navbar -->
-        <nav class="sticky top-0 bg-offWhite drop-shadow-lg">
+        <nav id="padrinos" class="sticky top-0 bg-offWhite drop-shadow-lg">
             <div class="laptop:hidden flex flex-wrap items-center justify-between p-4 px-6 border-b-[1px] border-b-transparent flex-end mb-10">
                 <div class="text-2xl font-paris">Seth & Danny</div>
                 <!-- burger menu button -->
@@ -62,63 +61,74 @@
 
 
         <!-- intro copy -->
-        <section id="padrinos" class="grid clear-both h-screen grid-cols-1 gap-6 p-8 duration-500 laptop:p-0 laptop:gap-0 laptop:grid-cols-4 ipad:p-0">
+        <section class="grid h-auto grid-cols-1 gap-6 p-8 duration-500 laptop:h-screen laptop:p-0 laptop:gap-0 laptop:grid-cols-4 ipad:p-0">
 
             <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-0 font-garamond text-btnNormal laptop:bg-offWhite">
                 <img src="./assets/img/stock-web-2.jpg" alt="novios" class="object-cover mb-6 laptop:mb-0">
                 <div class="flex flex-col align-middle">
-                    <h2 class="pl-3 text-4xl border-l-2 laptop:text-5xl hd:text-6xl xl font-garamond laptop:border-none border-l-purpleDark laptop:px-12 laptop:py-6">El mejor tipo de amor es el que despierta el alma y nos hace aspirar a más.</h2>
-                    <p class="mt-6 text-2xl laptop:mt-0 hd:text-3xl laptop:px-12 text-purpleDark">Tenemos el honor de invitarles a celebrar nuestro enlace matrimonial con la Bendición de Dios y nuestros padres.</p>
+                    <h2 class="pl-3 text-4xl font-medium border-l-2 laptop:text-5xl hd:text-6xl xl font-garamond laptop:border-none border-l-purpleDark laptop:px-12 laptop:py-6">El mejor tipo de amor es el que despierta el alma y nos hace aspirar a más.</h2>
+                    <p class="mt-6 mb-6 text-2xl laptop:mb-0 laptop:mt-0 hd:text-3xl laptop:px-12 text-purpleDark">Tenemos el honor de invitarles a celebrar nuestro enlace matrimonial con la Bendición de Dios y nuestros padres.</p>
                 </div>
             </div>
 
             <!-- padrinos velacion -->
-            <div class="justify-center col-span-1 row-span-1 pb-3 text-lg border-r-none border-b-[1px] laptop:border-b-0 border-b-purpleLight laptop:bg-purpleLighter laptop:p-12 font-garamond text-btnNormal mt-10 laptop:mt-0">
-                <div class="flex flex-col align-middle">
-                    <img src="./assets/icons/noun-candles-4017642.svg" alt="velas" class="w-16 pb-3 laptop:w-20">
-                    <h2 class="mb-3 text-3xl font-garamond">Padrinos de Velación:</h2>
-                    <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
-                    <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+            <div class="justify-center col-span-1 row-span-1 pb-6 text-lg border-r-none border-b-[1px] laptop:border-b-0 border-b-purpleLight laptop:bg-purpleLighter laptop:p-12 font-garamond text-btnNormal">
+                <div class="flex flex-row align-middle laptop:flex-col">
+                    <img src="./assets/icons/noun-candles-4017642.svg" alt="velas" class="w-16 laptop:pb-3 laptop:w-20">
+                    <div class="pl-6 laptop:pl-0">
+                        <h2 class="mb-3 text-3xl font-medium font-garamond">Padrinos de Velación:</h2>
+                        <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
+                        <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+                    </div>
                 </div>
             </div>
 
             <!-- padrinos anillos -->
-            <div class="justify-center col-span-1 row-span-1 pb-3 text-lg border-r-none border-b-[1px] laptop:border-b-0 border-b-purpleLight laptop:p-12 laptop:bg-purpleLighter font-garamond text-btnNormal">
-                <div class="flex flex-col align-middle">
-                    <img src="./assets/icons/noun-ring-4017603.svg" alt="anillos de boda" class="w-16 pb-3 laptop:w-20">
-                    <h2 class="mb-3 text-3xl font-garamond">Padrinos de Anillos:</h2>
-                    <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
-                    <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+            <div class="justify-center col-span-1 row-span-1 pb-6 text-lg border-r-none border-b-[1px] laptop:border-b-0 border-b-purpleLight laptop:bg-purpleLighter laptop:p-12 font-garamond text-btnNormal">
+                <div class="flex flex-row align-middle laptop:flex-col">
+                    <img src="./assets/icons/noun-ring-4017603.svg" alt="velas" class="w-16 laptop:pb-3 laptop:w-20">
+                    <div class="pl-6 laptop:pl-0">
+                        <h2 class="mb-3 text-3xl font-medium font-garamond">Padrinos de Anillos:</h2>
+                        <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
+                        <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+                    </div>
                 </div>
             </div>
 
             <!-- padrinos arras -->
-            <div class="justify-center col-span-1 row-span-1 pb-3 text-lg border-r-none border-b-[1px] laptop:border-b-0 border-b-purpleLight laptop:p-12 font-garamond laptop:bg-purpleLighter text-btnNormal">
-                <div class="flex flex-col align-middle">
-                    <img src="./assets/icons/noun-arras.svg" alt="anillos de boda" class="w-16 pb-3 laptop:w-20">
-                    <h2 class="mb-3 text-3xl font-garamond">Padrinos de Arras:</h2>
-                    <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
-                    <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+            <div class="justify-center col-span-1 row-span-1 pb-6 text-lg border-r-none border-b-[1px] laptop:border-b-0 border-b-purpleLight laptop:bg-purpleLighter laptop:p-12 font-garamond text-btnNormal">
+                <div class="flex flex-row align-middle laptop:flex-col">
+                    <img src="./assets/icons/noun-arras.svg" alt="velas" class="w-16 laptop:pb-3 laptop:w-20">
+                    <div class="pl-6 laptop:pl-0">
+                        <h2 class="mb-3 text-3xl font-medium font-garamond">Padrinos de Arras:</h2>
+                        <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
+                        <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+                    </div>
                 </div>
             </div>
 
+
             <!-- padrinos lazo -->
-            <div class="justify-center col-span-1 row-span-1 pb-3 text-lg border-r-none border-b-[1px] laptop:border-b-0 border-b-purpleLight laptop:p-12 font-garamond laptop:bg-purpleLighter text-btnNormal">
-                <div class="flex flex-col align-middle">
-                    <img src="./assets/icons/noun-rope-6562680.svg" alt="lazo de boda" class="w-16 pb-3 laptop:w-20">
-                    <h2 class="mb-3 text-3xl font-garamond">Padrinos de Lazo:</h2>
-                    <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
-                    <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+            <div class="justify-center col-span-1 row-span-1 pb-6 text-lg border-r-none border-b-[1px] laptop:border-b-0 border-b-purpleLight laptop:bg-purpleLighter laptop:p-12 font-garamond text-btnNormal">
+                <div class="flex flex-row align-middle laptop:flex-col">
+                    <img src="./assets/icons/noun-rope-6562680.svg" alt="velas" class="w-16 laptop:pb-3 laptop:w-20">
+                    <div class="pl-6 laptop:pl-0">
+                        <h2 class="mb-3 text-3xl font-medium font-garamond">Padrinos de Lazo:</h2>
+                        <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
+                        <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+                    </div>
                 </div>
             </div>
 
             <!-- padrinos ramo -->
-            <div class="flex flex-col justify-center col-span-1 row-span-1 pb-3 text-lg border-r-none laptop:border-b-0 laptop:p-12 font-garamond text-btnNormal laptop:bg-purpleLighter">
-                <div class="flex flex-col align-middle">
-                    <img src="./assets/icons/noun-rose-4017610.svg" alt="ramo de boda" class="w-16 pb-3 laptop:w-20">
-                    <h2 class="mb-3 text-3xl font-garamond">Padrinos de Ramo:</h2>
-                    <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
-                    <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+            <div class="justify-center col-span-1 row-span-1 pb-6 text-lg border-r-none laptop:border-b-0 border-b-purpleLight laptop:bg-purpleLighter laptop:p-12 font-garamond text-btnNormal">
+                <div class="flex flex-row align-middle laptop:flex-col">
+                    <img src="./assets/icons/noun-rose-4017610.svg" alt="velas" class="w-16 laptop:pb-3 laptop:w-20">
+                    <div class="pl-6 laptop:pl-0">
+                        <h2 class="mb-3 text-3xl font-medium font-garamond">Padrinos de Ramo:</h2>
+                        <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
+                        <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+                    </div>
                 </div>
             </div>
 
@@ -131,23 +141,32 @@
 
         <!-- LO QUE DEBES SABER -->
         <div id="saber" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-20 bg-purpleDark">
-            <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:border-r-[1px] laptop:border-r-purpleMid laptop:p-12 font-garamond text-offWhite">
-                <h2 class="pl-3 text-5xl hd:text-5xl font-garamond laptop:p-0">Lo que debes saber:</h2>
+            <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-12 font-garamond text-offWhite">
+                <h2 class="text-5xl hd:text-5xl font-garamond laptop:p-0">Lo que debes saber:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vel consequatur enim, beatae ipsum assumenda.</p>
             </div>
         </div>
 
 
         <!-- REGALOS -->
         <div id="regalos" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-20 bg-offWhite">
-            <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:border-r-[1px] laptop:border-r-purpleMid laptop:p-12 font-garamond text-btnNormal">
-                <h2 class="pl-3 text-5xl hd:text-5xl font-garamond laptop:p-0">Opciones de regalos:</h2>
+            <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-12 font-garamond text-btnNormal">
+                <h2 class="text-5xl hd:text-5xl font-garamond laptop:p-0">Opciones de regalos:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vel consequatur enim, beatae ipsum assumenda.</p>
             </div>
         </div>
 
         <!-- ASISTENCIA -->
         <div id="" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-1 ipad:p-20 bg-purpleDark">
             <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-12 font-garamond text-offWhite">
-                <h2 class="pl-3 text-5xl hd:text-5xl font-garamond laptop:p-0">Asistencia</h2>
+                <h2 class="text-5xl hd:text-5xl font-garamond laptop:p-0">Asistencia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vel consequatur enim, beatae ipsum assumenda.</p>
+                <hr>
+                <form class="max-w-sm mx-auto">
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+                    <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
+                </form>
+
             </div>
         </div>
     </main>
@@ -155,9 +174,9 @@
     <!-- FOOTER -->
     <footer class="flex flex-col items-center justify-center w-full h-auto py-8 text-2xl text-center laptop:py-10 laptop:text-4xl bg-btnNormal font-paris text-offWhite">Seth & Danny<br><span class="text-lg laptop:text-xl font-garamond">· 17 · 8 · 24 ·</span>
 
-        <div class="flex flex-row items-center justify-end w-full px-12 mt-6 text-base font-garamond">
-            Creador por:
-            <a href="https://elbob-mx.github.io/website-webbygravy/" aria-label="ir al sitio del creador"><img src="./assets/logo/webbyGravy-logo.svg" alt="logo webbygravy" class="w-24 ml-2"></a>
+        <div class="flex flex-row items-center justify-center w-full px-12 mt-20 text-sm laptop:justify-end font-garamond">
+            Creado por:
+            <a href="https://elbob-mx.github.io/website-webbygravy/" aria-label="ir al sitio del creador"><img src="./assets/logo/webbyGravy-logo.svg" alt="logo webbygravy" class="w-20 ml-2 laptop:w-24"></a>
         </div>
 
     </footer>
