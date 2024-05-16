@@ -62,7 +62,7 @@
 
 
         <!-- intro copy -->
-        <section id="padrinos" class="grid clear-both grid-cols-1 gap-6 p-8 duration-500 h-[calc(100vh-56px)] laptop:h-screen laptop:p-0 laptop:gap-0 laptop:grid-cols-4 ipad:p-0">
+        <section id="padrinos" class="grid clear-both h-screen grid-cols-1 gap-6 p-8 duration-500 laptop:p-0 laptop:gap-0 laptop:grid-cols-4 ipad:p-0">
 
             <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-0 font-garamond text-btnNormal laptop:bg-offWhite">
                 <img src="./assets/img/stock-web-2.jpg" alt="novios" class="object-cover mb-6 laptop:mb-0">
@@ -130,33 +130,36 @@
 
 
         <!-- LO QUE DEBES SABER -->
-        <section class="h-screen">
-            <div id="saber" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-20 bg-purpleDark">
-                <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:border-r-[1px] laptop:border-r-purpleMid laptop:p-12 font-garamond text-offWhite">
-                    <h2 class="pl-3 text-5xl hd:text-5xl font-garamond laptop:p-0">Lo que debes saber:</h2>
-                </div>
+        <div id="saber" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-20 bg-purpleDark">
+            <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:border-r-[1px] laptop:border-r-purpleMid laptop:p-12 font-garamond text-offWhite">
+                <h2 class="pl-3 text-5xl hd:text-5xl font-garamond laptop:p-0">Lo que debes saber:</h2>
             </div>
+        </div>
 
 
-            <!-- REGALOS -->
-            <div id="regalos" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-20 bg-offWhite">
-                <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:border-r-[1px] laptop:border-r-purpleMid laptop:p-12 font-garamond text-btnNormal">
-                    <h2 class="pl-3 text-5xl hd:text-5xl font-garamond laptop:p-0">Opciones de regalos:</h2>
-                </div>
+        <!-- REGALOS -->
+        <div id="regalos" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-20 bg-offWhite">
+            <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:border-r-[1px] laptop:border-r-purpleMid laptop:p-12 font-garamond text-btnNormal">
+                <h2 class="pl-3 text-5xl hd:text-5xl font-garamond laptop:p-0">Opciones de regalos:</h2>
             </div>
+        </div>
 
-            <!-- ASISTENCIA -->
-            <div id="" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-1 ipad:p-20 bg-purpleDark">
-                <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-12 font-garamond text-offWhite">
-                    <h2 class="pl-3 text-5xl hd:text-5xl font-garamond laptop:p-0">Asistencia</h2>
-                </div>
+        <!-- ASISTENCIA -->
+        <div id="" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-1 ipad:p-20 bg-purpleDark">
+            <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-12 font-garamond text-offWhite">
+                <h2 class="pl-3 text-5xl hd:text-5xl font-garamond laptop:p-0">Asistencia</h2>
             </div>
-        </section>
+        </div>
     </main>
 
     <!-- FOOTER -->
-    <footer class="w-full h-auto py-8 text-2xl text-center laptop:py-10 laptop:text-4xl bg-btnNormal font-paris text-offWhite">Seth & Danny<br><span class="text-lg laptop:text-xl font-garamond">· 17 · 8 · 24 ·</span>
-        <a href="https://elbob-mx.github.io/website-webbygravy/" class="mt-10 w-fit" aria-label="ir al sitio del creador"><img src="" alt=""></a>
+    <footer class="flex flex-col items-center justify-center w-full h-auto py-8 text-2xl text-center laptop:py-10 laptop:text-4xl bg-btnNormal font-paris text-offWhite">Seth & Danny<br><span class="text-lg laptop:text-xl font-garamond">· 17 · 8 · 24 ·</span>
+
+        <div class="flex flex-row items-center justify-end w-full px-12 mt-6 text-base font-garamond">
+            Creador por:
+            <a href="https://elbob-mx.github.io/website-webbygravy/" aria-label="ir al sitio del creador"><img src="./assets/logo/webbyGravy-logo.svg" alt="logo webbygravy" class="w-24 ml-2"></a>
+        </div>
+
     </footer>
 
 </body>
