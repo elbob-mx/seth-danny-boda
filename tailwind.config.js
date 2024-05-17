@@ -20,14 +20,13 @@ module.exports = {
         extend: {
             fontFamily: {
                 paris: "Parisienne, cursive",
-                meow: "Meow Script, cursive",
                 garamond: "EB Garamond, serif",
             },
             colors: {
                 offWhite: "#f2f2f2",
                 offBlack: "#181818",
                 purpleDark: "#554e94",
-                purpleDarker: "#1e1b31",
+                purpleDarker: "#3d368c",
                 purpleMid: "#8a71d6",
                 purpleLight: "#c3b0de",
                 purpleLighter: "#ebe3f8 ",

@@ -8,17 +8,17 @@
     <title>Seth & Danny Wedding</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Meow+Script&family=Parisienne&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Parisienne&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/9846627988.js" crossorigin="anonymous"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-    <script src="https://kit.fontawesome.com/9846627988.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./public/style.css" />
 </head>
 
 <body class="w-full bg-offWhite">
     <main>
+        <!-- BANNER -->
         <section class="relative flex flex-col items-center justify-center h-screen">
-            <!-- square inside main banner -->
             <div class="absolute px-6 py-20 border-2 hd:px-20 hd:py-60 bg-btnNormal/75 border-offWhite">
                 <h1 class="text-4xl text-center font-paris ipad:text-7xl text-offWhite">Seth & Danny</h1>
                 <h2 class="mt-3 text-2xl text-center laptop:mt-6 laptop:text-3xl font-garamond text-offWhite">· 17 · 8 · 24 ·</h2>
@@ -28,13 +28,13 @@
             </div>
 
             <img src="./assets/img/stock-wed.jpg" alt="novios" class="object-cover w-full h-screen">
-            <!-- END square inside main banner -->
+            <!-- END BANNER -->
         </section>
 
-        <!-- mobile navbar -->
+        <!-- MOBILE NAVBAR -->
         <nav id="padrinos" class="sticky top-0 bg-offWhite drop-shadow-lg">
-            <div class="laptop:hidden flex flex-wrap items-center justify-between p-4 px-6 border-b-[1px] border-b-transparent flex-end mb-10">
-                <div class="text-2xl font-paris">Seth & Danny</div>
+            <div class="laptop:hidden flex flex-wrap items-center justify-between p-4 px-6 border-b-[1px] border-b-transparent flex-end">
+                <div class="text-2xl font-paris">Seth & Danny<sup class="pl-2 text-sm text-gray-500 font-garamond">17 · 8 · 24</sup></div>
                 <!-- burger menu button -->
                 <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm rounded-lg text-btnNormal hover:text-offWhite md:hidden hover:bg-btnNormal focus:outline-none focus:ring-2 focus:ring-purpleDark" aria-controls="navbar-default" aria-expanded="false">
                     <span class="sr-only">Abrir menú</span>
@@ -52,88 +52,133 @@
                             <a href="#saber" class="block text-2xl text-center" aria-current="page">· Lo que debes saber ·</a>
                         </li>
                         <li>
-                            <a href="#saber" class="block text-2xl text-center" aria-current="page">· Regalos ·</a>
+                            <a href="#regalos" class="block text-2xl text-center" aria-current="page">· Regalos ·</a>
+                        </li>
+                        <li>
+                            <a href="#asistencia" class="block text-2xl text-center" aria-current="page">· Confirma tú asistencia ·</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- END mobile navbar -->
+        <!-- END MOBILE NAVBAR -->
 
-
-        <!-- intro copy -->
-        <section class="grid h-auto grid-cols-1 gap-6 p-8 duration-500 laptop:h-screen laptop:p-0 laptop:gap-0 laptop:grid-cols-4 ipad:p-0">
-
-            <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-0 font-garamond text-btnNormal laptop:bg-offWhite">
-                <img src="./assets/img/stock-web-2.jpg" alt="novios" class="object-cover mb-6 laptop:mb-0">
-                <div class="flex flex-col align-middle">
-                    <h2 class="pl-3 text-4xl font-medium border-l-2 laptop:text-5xl hd:text-6xl xl font-garamond laptop:border-none border-l-purpleDark laptop:px-12 laptop:py-6">El mejor tipo de amor es el que despierta el alma y nos hace aspirar a más.</h2>
-                    <p class="mt-6 mb-6 text-2xl laptop:mb-0 laptop:mt-0 hd:text-3xl laptop:px-12 text-purpleDark">Tenemos el honor de invitarles a celebrar nuestro enlace matrimonial con la Bendición de Dios y nuestros padres.</p>
-                </div>
+        <!-- FIRST SECTION COPY -->
+        <section class="grid h-auto grid-cols-1 gap-4 p-8 laptop:gap-8 laptop:p-10 laptop:grid-cols-3">
+            <!-- FIRST COL -->
+            <div class="grid gap-4 h-fit laptop:gap-6">
+                <img src="./assets/img/stock-web-2.jpg" alt="novios" class="h-auto max-w-full duration-500 rounded-lg hover:shadow-lg hover:shadow-purpleLight hover:-translate-y-1">
+                <h2 class="h-auto max-w-full text-6xl text-purpleDarker laptop:text-8xl font-garamond">El mejor tipo de amor es el que despierta el alma y nos hace aspirar a más.</h2>
+                <img src="./assets/img/Cabo-San-Lucas-Beach.jpeg" alt="novios" class="object-cover h-auto max-w-full duration-500 rounded-lg hover:shadow-lg hover:shadow-purpleLight hover:-translate-y-1">
             </div>
 
-            <!-- padrinos velacion -->
-            <div class="justify-center col-span-1 row-span-1 pb-6 text-lg border-r-none border-b-[1px] laptop:border-b-0 border-b-purpleLight laptop:bg-purpleLighter laptop:p-12 font-garamond text-btnNormal">
-                <div class="flex flex-row align-middle laptop:flex-col">
-                    <img src="./assets/icons/noun-candles-4017642.svg" alt="velas" class="w-16 laptop:pb-3 laptop:w-20">
-                    <div class="pl-6 laptop:pl-0">
-                        <h2 class="mb-3 text-3xl font-medium font-garamond">Padrinos de Velación:</h2>
-                        <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
-                        <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+            <!-- SECOND COL -->
+            <div class="grid gap-4 mt-8 laptop:mt-0 h-fit laptop:gap-6">
+                <h2 class="max-w-full text-4xl h-fit font-garamond text-purpleDark">Tenemos el honor de invitarles a celebrar nuestro enlace matrimonial con la Bendición de Dios y nuestros padres.</h2>
+                <!-- PADRINOS VELACIÓN -->
+                <div class="justify-center col-span-1 row-span-1 pb-6 text-lg border-r-none border-b-[1px] laptop:mt-0 mt-10 laptop:border-b-0 border-b-purpleLight laptop:bg-purpleLighter laptop:p-12 font-garamond text-btnNormal">
+                    <div class="flex flex-row align-middle laptop:flex-col">
+                        <img src="./assets/icons/noun-candles-4017642.svg" alt="velas" class="w-16 laptop:pb-3 laptop:w-20">
+                        <div class="pl-6 laptop:pl-0">
+                            <h2 class="mb-3 text-3xl font-medium font-garamond">Padrinos de Velación:</h2>
+                            <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
+                            <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <!-- PADRINOS VELACIÓN -->
 
-            <!-- padrinos anillos -->
-            <div class="justify-center col-span-1 row-span-1 pb-6 text-lg border-r-none border-b-[1px] laptop:border-b-0 border-b-purpleLight laptop:bg-purpleLighter laptop:p-12 font-garamond text-btnNormal">
-                <div class="flex flex-row align-middle laptop:flex-col">
-                    <img src="./assets/icons/noun-ring-4017603.svg" alt="velas" class="w-16 laptop:pb-3 laptop:w-20">
-                    <div class="pl-6 laptop:pl-0">
-                        <h2 class="mb-3 text-3xl font-medium font-garamond">Padrinos de Anillos:</h2>
-                        <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
-                        <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+                <!-- PADRINOS ANILLO -->
+                <div class="justify-center col-span-1 row-span-1 pb-6 mb-10 text-lg laptop:mb-0 border-r-none laptop:bg-purpleLighter laptop:p-12 font-garamond text-btnNormal">
+                    <div class="flex flex-row align-middle laptop:flex-col">
+                        <img src="./assets/icons/noun-ring-4017603.svg" alt="velas" class="w-16 laptop:pb-3 laptop:w-20">
+                        <div class="pl-6 laptop:pl-0">
+                            <h2 class="mb-3 text-3xl font-medium font-garamond">Padrinos de Anillos:</h2>
+                            <p class="text-xl hd:text-2xl">· Zully Morales Camiruaga.</p>
+                            <p class="text-xl hd:text-2xl">· Gerardo Ramirez Ruiz.</p>
+                        </div>
                     </div>
                 </div>
+                <!-- PADRINOS ANILLO -->
+
+                <img src="./assets/img/stock-web-2.jpg" alt="novios" class="h-auto max-w-full duration-500 rounded-lg hover:shadow-lg hover:shadow-purpleLight hover:-translate-y-1">
+
+                <h2 class="max-w-full p-4 text-4xl rounded-lg h-fit bg-purpleLighter font-garamond">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, eligendi.</h2>
             </div>
 
-            <!-- misc image  -->
-            <img src="./assets/img/stock-wed.jpg" alt="" class="object-contain w-full h-full">
+            <!-- THIRD COL -->
+            <div class="grid gap-4 h-fit laptop:gap-6">
+                <img src="./assets/img/stock-wed.jpg" alt="novios" class="h-auto max-w-full duration-500 rounded-lg hover:shadow-lg hover:shadow-purpleLight hover:-translate-y-1">
+                <h2 class="max-w-full p-4 text-2xl rounded-lg bg-purpleLight hd:text-4xl h-fit font-garamond">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, veniam. Illo unde laboriosam vitae? Quam doloremque aliquid tenetur saepe voluptatum.</h2>
+                <img src="./assets/img/paulina-vasquez-GA6pGXxrJ0E-unsplash.jpg" alt="novios" class="h-auto max-w-full duration-500 rounded-lg hover:shadow-lg hover:shadow-purpleLight hover:-translate-y-1">
+            </div>
         </section>
 
-
         <!-- LO QUE DEBES SABER -->
-        <div id="saber" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-20 bg-purpleDark">
-            <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-12 font-garamond text-offWhite">
-                <h2 class="py-2 text-5xl hd:text-5xl font-garamond laptop:p-0">Lo que debes saber:</h2>
-                <p class="py-6 text-xl laptop:text-3xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vel consequatur enim, beatae ipsum assumenda.</p>
-                <ul>
-                    <li class="text-xl">· Lorem, ipsum dolor.</li>
-                    <li class="text-xl">· Lorem, ipsum dolor.</li>
-                    <li class="text-xl">· Lorem, ipsum dolor.</li>
-                </ul>
+        <div id="saber" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-32 bg-purpleDark font-garamond">
+            <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-4 text-offWhite">
+                <h2 class="py-2 text-5xl hd:text-6xl font-garamond laptop:p-0">Lo que debes saber:</h2>
+                <p class="py-6 text-2xl laptop:text-4xl">Gracias por acompañarnos en este tan importante día para nosotros. Aquí tienes la información necesaria; cualquier duda que tengas, puedes contactarnos en WhatsApp.</p>
+
+                <div class="flex flex-col items-center justify-between mt-12 laptop:flex-row">
+
+                    <!-- FECHA -->
+                    <div class="flex flex-col items-center col-span-1 text-center">
+                        <img src="./assets/icons/noun-calendar-6841827.svg" alt="fecha de la boda" class="w-20 py-3 laptop:w-28">
+                        <h3 class="py-2 text-3xl font-medium">· ¿Cuándo? ·</h3>
+                        <p class="text-2xl">Sábado 17 de Agosto 2024.</p>
+                    </div>
+
+                    <!-- UNIÓN CIVIL -->
+                    <div class="flex flex-col items-center col-span-1 mt-8 text-center laptop:mt-0">
+                        <img src="./assets/icons/noun-couple-3498731.svg" alt="fecha de la boda" class="w-20 py-3 laptop:w-28">
+                        <h3 class="py-2 text-3xl font-medium">· Boda civil ·</h3>
+                        <p class="mb-3 text-2xl">16:00 hrs.</p>
+                        <p class="text-xl">Secret Rocks Beach</p>
+                        <p class="text-xl">23390 La Paz, B.C.S.</p>
+                        <a href="https://maps.app.goo.gl/LvbWNfn1FcwEGyJW7" class="px-8 py-3 mt-3 text-2xl font-medium duration-500 rounded-md hover:bg-purpleMid hover:shadow-lg hover:shadow-purpleDarker hover:translate-y-1 bg-btnNormal">Ubicación</a>
+                    </div>
+
+                    <!-- RECEPCION -->
+                    <div class="flex flex-col items-center col-span-1 mt-8 text-center laptop:mt-0">
+                        <img src="./assets/icons/noun-cheers-6287611.svg" alt="fecha de la boda" class="w-20 py-3 laptop:w-28">
+                        <h3 class="py-2 text-3xl font-medium">· Recepción ·</h3>
+                        <p class="mb-3 text-2xl">19:00 hrs.</p>
+                        <p class="text-xl">Jardín Los Tamarindos.</p>
+                        <p class="text-base">Cam. al Tezal, 23454 El Tezal, B.C.S.</p>
+                        <a href="https://maps.app.goo.gl/RdAJynn1dn75MeeJ9" class="px-8 py-3 mt-3 text-2xl font-medium duration-500 rounded-md hover:bg-purpleMid hover:shadow-lg hover:shadow-purpleDarker hover:translate-y-1 bg-btnNormal">Ubicación</a>
+                    </div>
+
+                    <!-- VESTIMENTA -->
+                    <div class="flex flex-col items-center col-span-1 mt-8 text-center laptop:mt-0">
+                        <img src="./assets/icons/noun-wedding-6447492.svg" alt="fecha de la boda" class="w-20 py-3 laptop:w-28">
+                        <h3 class="py-2 text-3xl font-medium">· Código de vestimenta ·</h3>
+                        <p class="text-2xl">Casual elegante.</p>
+                        <p class="text-2xl">Colores vivos.</p>
+                        <p class="text-xl text-center underline">* Excepto color morado y lila.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
 
         <!-- REGALOS -->
-        <div id="regalos" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-20 bg-offWhite">
-            <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-12 font-garamond text-btnNormal">
+        <div id="regalos" class="grid grid-cols-1 gap-6 p-8 text-center laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-32 bg-offWhite">
+            <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-4 font-garamond text-btnNormal">
                 <h2 class="py-2 text-5xl hd:text-5xl font-garamond laptop:p-0">Opciones de regalos:</h2>
-                <p class="py-6 text-xl laptop:text-3xl">Nuestro mejor regalo es compartir contigo este gran día, sí deseas obsequiarnos algo, te sugerimos las siguientes opciones:</p>
-                <div class="flex flex-col justify-center col-span-4">
-                    <p>Cuando</p>
-                    <p>Donde</p>
-                    <p>Fiesta</p>
-                    <p>Ubicación</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7350.440832429456!2d-109.8955151234683!3d22.90523957925626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86af4ba8de599067%3A0xa837433c7d70db58!2sJardin%20Los%20Tamarindos!5e0!3m2!1ses-419!2sus!4v1715906654000!5m2!1ses-419!2sus" class="w-full laptop:col-span-4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <p>Código de vestimenta</p>
+                <p class="py-6 text-2xl text-left laptop:text-3xl">Nuestro mejor regalo es compartir contigo este gran día, sí deseas obsequiarnos algo, te sugerimos las siguientes opciones:</p>
+                <!-- VESTIMENTA -->
+                <div class="flex flex-col items-center">
+                    <img src="./assets/icons/noun-envelopes-229615.svg" alt="fecha de la boda" class="w-20 py-3 laptop:w-28">
+                    <h3 class="py-2 text-3xl font-medium">· Lluvia de sobres ·</h3>
+                    <p class="text-2xl">La lluvia de sobres es la tradición de regalar dinero en efectivo dentro de un sobre el día del evento.</p>
                 </div>
             </div>
         </div>
 
         <!-- ASISTENCIA -->
-        <div id="" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-1 ipad:p-20 bg-purpleDark">
-            <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-12 font-garamond text-offWhite">
+        <div id="asistencia" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-1 ipad:p-32 bg-purpleDark">
+            <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 font-garamond text-offWhite">
                 <h2 class="py-2 text-5xl hd:text-5xl font-garamond">Asistencia</h2>
                 <p class="py-6 text-xl laptop:text-3xl">¡Queremos Compartir contigo este momento especial!, Por favor apóyanos confirmando tu asistencia.<br>De la manera más amable, <span class="font-bold underline">No Niños.</span></p>
 
@@ -151,21 +196,22 @@
                 <!-- <button type="submit" class="px-6 py-2 mt-3 text-3xl font-medium duration-700 rounded-md bg-btnNormal hover:bg-purpleMid hover:shadow-xl shadow-btnNormal hover:translate-y-2">Enviar</button>
                 </form> -->
 
-                <a href="https://api.whatsapp.com/send?phone=3338068984" class="flex flex-row items-center justify-center w-full p-3 duration-700 rounded-md hover:shadow-lg hover:shadow-purpleMid hover:-translate-y-1 bg-btnNormal" aria-label="whatsapp"><span class="text-xl font-medium laptop:text-3xl">Confirma en:</span><i class="pl-6 text-6xl text-emerald-400 fa-brands fa-whatsapp"></i></a>
+                <!-- WHATSAPP -->
+                <a href="https://api.whatsapp.com/send?phone=6241917860" class="flex flex-row items-center justify-center w-full p-3 duration-700 rounded-full hover:shadow-lg hover:shadow-btnNormal hover:-translate-y-1 bg-btnNormal hover:bg-purpleMid" aria-label="whatsapp"><span class="text-xl font-medium laptop:text-3xl">Confirma aquí</span><i class="pl-6 text-6xl text-emerald-400 fa-brands fa-whatsapp"></i></a>
 
             </div>
         </div>
     </main>
 
     <!-- FOOTER -->
-    <footer class="flex flex-col items-center justify-center w-full h-auto py-8 text-2xl text-center laptop:py-10 laptop:text-4xl bg-purpleDarker font-paris text-offWhite">Seth & Danny<br><span class="text-lg laptop:text-xl font-garamond">· 17 · 8 · 24 ·</span>
+    <footer class="flex flex-col items-center justify-center w-full h-auto py-8 text-2xl text-center laptop:py-10 laptop:text-4xl bg-purpleDarker font-paris text-offWhite">Seth & Danny<br><span class="text-lg laptop:text-xl font-garamond">· 17 · 8 · 24 ·</span><br><span class="text-xl laptop:text-xl font-garamond">· Gracias ·</span>
 
         <div class="flex flex-row items-center justify-center w-full px-12 mt-20 text-sm laptop:justify-end font-garamond">
             Creado por:
             <a href="https://elbob-mx.github.io/website-webbygravy/" aria-label="ir al sitio del creador"><img src="./assets/logo/webbyGravy-logo.svg" alt="logo webbygravy" class="w-20 ml-2 laptop:w-24"></a>
         </div>
-
     </footer>
+    <!-- END FOOTER -->
 
 </body>
 
