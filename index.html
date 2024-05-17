@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Meow+Script&family=Parisienne&display=swap" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="https://kit.fontawesome.com/9846627988.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./public/style.css" />
 </head>
 
@@ -142,8 +143,13 @@
         <!-- LO QUE DEBES SABER -->
         <div id="saber" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-20 bg-purpleDark">
             <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-12 font-garamond text-offWhite">
-                <h2 class="text-5xl hd:text-5xl font-garamond laptop:p-0">Lo que debes saber:</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vel consequatur enim, beatae ipsum assumenda.</p>
+                <h2 class="py-2 text-5xl hd:text-5xl font-garamond laptop:p-0">Lo que debes saber:</h2>
+                <p class="py-6 text-xl laptop:text-3xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vel consequatur enim, beatae ipsum assumenda.</p>
+                <ul>
+                    <li class="text-xl">· Lorem, ipsum dolor.</li>
+                    <li class="text-xl">· Lorem, ipsum dolor.</li>
+                    <li class="text-xl">· Lorem, ipsum dolor.</li>
+                </ul>
             </div>
         </div>
 
@@ -151,28 +157,50 @@
         <!-- REGALOS -->
         <div id="regalos" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-20 bg-offWhite">
             <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-12 font-garamond text-btnNormal">
-                <h2 class="text-5xl hd:text-5xl font-garamond laptop:p-0">Opciones de regalos:</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vel consequatur enim, beatae ipsum assumenda.</p>
+                <h2 class="py-2 text-5xl hd:text-5xl font-garamond laptop:p-0">Opciones de regalos:</h2>
+                <p class="py-6 text-xl laptop:text-3xl">Nuestro mejor regalo es compartir contigo este gran día, sí deseas obsequiarnos algo, te sugerimos las siguientes opciones:</p>
+                <div class="flex flex-col justify-center col-span-4">
+                    <p>Cuando</p>
+                    <p>Donde</p>
+                    <p>Fiesta</p>
+                    <p>Ubicación</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7350.440832429456!2d-109.8955151234683!3d22.90523957925626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86af4ba8de599067%3A0xa837433c7d70db58!2sJardin%20Los%20Tamarindos!5e0!3m2!1ses-419!2sus!4v1715906654000!5m2!1ses-419!2sus" class="w-full laptop:col-span-4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>Código de vestimenta</p>
+                </div>
             </div>
         </div>
 
         <!-- ASISTENCIA -->
         <div id="" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-1 ipad:p-20 bg-purpleDark">
             <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-2 laptop:p-12 font-garamond text-offWhite">
-                <h2 class="text-5xl hd:text-5xl font-garamond laptop:p-0">Asistencia</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vel consequatur enim, beatae ipsum assumenda.</p>
-                <hr>
-                <form class="max-w-sm mx-auto">
-                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
-                    <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
+                <h2 class="py-2 text-5xl hd:text-5xl font-garamond">Asistencia</h2>
+                <p class="py-6 text-xl laptop:text-3xl">¡Queremos Compartir contigo este momento especial!, Por favor apóyanos confirmando tu asistencia.<br>De la manera más amable <span class="font-bold underline">No Niños.</span></p>
+
+                <hr class="my-3">
+
+                <!-- forma asistencia -->
+                <form action="https://formspree.io/f/mbjnbbon" method="POST" class="flex flex-col pb-6 laptop:px-60 laptop:pt-20 laptop:pb-10 font-garamond">
+                    <label class="text-2xl laptop:text-3xl">
+                        Tu correo:
+                        <input type="email" name="email" placeholder="Escríbelo aquí:" class="w-full text-xl rounded-md bg-offWhite text-offBlack">
+                    </label>
+                    <label class="mt-6 text-2xl laptop:text-3xl">
+                        Escribe aquí tu mensaje:
+                        <textarea name="message" placeholder="Escríbelo aquí:" class="w-full p-3 text-xl rounded-md text-offBlack bg-offWhite" rows="5"></textarea>
+                    </label>
+                    <!-- your other form fields go here -->
+                    <button type="submit" class="px-6 py-2 mt-3 text-3xl font-medium duration-700 rounded-md bg-btnNormal hover:bg-purpleMid hover:shadow-xl shadow-btnNormal hover:translate-y-2">Enviar</button>
                 </form>
+
+                <span class="pb-6 text-3xl text-center"> - o - </span>
+                <a href="https://api.whatsapp.com/send?phone=3338068984" class="flex flex-row items-center justify-center duration-700 hover:translate-y-2" aria-label="whatsapp"><span class="text-xl font-medium laptop:text-3xl">También puedes hacerlo por WhatsApp :</span><i class="pl-6 text-6xl text-emerald-400 fa-brands fa-whatsapp"></i></a>
 
             </div>
         </div>
     </main>
 
     <!-- FOOTER -->
-    <footer class="flex flex-col items-center justify-center w-full h-auto py-8 text-2xl text-center laptop:py-10 laptop:text-4xl bg-btnNormal font-paris text-offWhite">Seth & Danny<br><span class="text-lg laptop:text-xl font-garamond">· 17 · 8 · 24 ·</span>
+    <footer class="flex flex-col items-center justify-center w-full h-auto py-8 text-2xl text-center laptop:py-10 laptop:text-4xl bg-purpleDarker font-paris text-offWhite">Seth & Danny<br><span class="text-lg laptop:text-xl font-garamond">· 17 · 8 · 24 ·</span>
 
         <div class="flex flex-row items-center justify-center w-full px-12 mt-20 text-sm laptop:justify-end font-garamond">
             Creado por:
