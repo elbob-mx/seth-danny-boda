@@ -23,13 +23,61 @@
                 <h1 class="text-4xl text-center font-paris ipad:text-7xl text-offWhite">Seth & Danny</h1>
                 <h2 class="mt-3 text-2xl text-center laptop:mt-6 laptop:text-3xl font-garamond text-offWhite">· 17 · 8 · 24 ·</h2>
             </div>
+
             <div class="absolute bottom-0 clear-both pb-10 mx-auto text-5xl text-center duration-500 text-offWhite hover:text-pink-400 hover:translate-y-1">
-                <a href="#padrinos" aria-label="ir a la sección padrinos" class="clear-both duration-500">↓</a>
+                <a href="#contador" aria-label="ir a la sección padrinos" class="clear-both duration-500">↓</a>
             </div>
 
             <img src="./assets/img/stock-wed.jpg" alt="novios" class="object-cover w-full h-screen">
             <!-- END BANNER -->
         </section>
+
+        <!-- CONTADOR -->
+        <section id="contador" class="w-full font-garamond">
+
+            <div class="w-full h-auto p-3 shadow-lg laptop:p-6 text-offWhite bg-purpleDark">
+
+                <div id="nuevo" class="h-auto p-6 text-center rounded-lg laptop:p-12 bg-btnNormal">
+
+                    <h2 class="mb-10 text-3xl font-medium text-center laptop:text-5xl text-offWhite">El momento se acerca:</h2>
+                    <div class="flex items-center justify-around text-center">
+                        <div class="p-1 rounded-md laptop:p-6 ">
+                            <h2 id="mes" class="text-2xl laptop:text-6xl">0</h2>
+                            <p>Meses</p>
+                        </div>
+
+                        <div class="hidden laptop:text-4xl laptop:inline-block">•</div>
+
+                        <div class="p-1 rounded-md laptop:p-6 ">
+                            <h2 id="dia" class="text-2xl laptop:text-6xl">0</h2>
+                            <p>Días</p>
+                        </div>
+
+                        <div class="hidden laptop:text-4xl laptop:inline-block">•</div>
+
+                        <div class="p-1 rounded-md laptop:p-6 ">
+                            <h2 id="hora" class="text-2xl laptop:text-6xl">0</h2>
+                            <p>Horas</p>
+                        </div>
+
+                        <div class="hidden laptop:text-4xl laptop:inline-block">•</div>
+
+                        <div class="p-1 rounded-md laptop:p-6 ">
+                            <h2 id="minuto" class="text-2xl laptop:text-6xl">0</h2>
+                            <p>Minutos</p>
+                        </div>
+
+                        <div class="hidden laptop:text-4xl laptop:inline-block">•</div>
+
+                        <div class="p-1 rounded-md laptop:p-6 ">
+                            <h2 id="segundo" class="text-2xl laptop:text-6xl">0</h2>
+                            <p>Segundos</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- FIN CONTADOR -->
+
 
         <!-- MOBILE NAVBAR -->
         <nav id="padrinos" class="sticky top-0 bg-offWhite drop-shadow-lg">
@@ -73,8 +121,8 @@
             </div>
 
             <!-- SECOND COL -->
-            <div class="grid gap-4 mt-8 laptop:mt-0 h-fit laptop:gap-6">
-                <h2 class="max-w-full text-4xl h-fit font-garamond text-purpleDark">Tenemos el honor de invitarles a celebrar nuestro enlace matrimonial con la Bendición de Dios y nuestros padres.</h2>
+            <div id="padrinos" class="grid gap-4 mt-8 laptop:mt-0 h-fit laptop:gap-6">
+                <h2 class="max-w-full text-4xl laptop:text-5xl h-fit font-garamond text-purpleDark">Tenemos el honor de invitarles a celebrar nuestro enlace matrimonial con la Bendición de Dios y nuestros padres.</h2>
                 <!-- PADRINOS VELACIÓN -->
                 <div class="justify-center col-span-1 row-span-1 pb-6 text-lg border-r-none border-b-[1px] laptop:mt-0 mt-10 laptop:border-b-0 border-b-purpleLight laptop:bg-purpleLighter laptop:p-12 font-garamond text-btnNormal">
                     <div class="flex flex-row align-middle laptop:flex-col">
@@ -135,8 +183,8 @@
                         <h3 class="py-2 text-3xl font-medium">· Boda civil ·</h3>
                         <p class="mb-3 text-2xl">16:00 hrs.</p>
                         <p class="text-xl">Secret Rocks Beach</p>
-                        <p class="text-xl">23390 La Paz, B.C.S.</p>
-                        <a href="https://maps.app.goo.gl/LvbWNfn1FcwEGyJW7" class="px-8 py-3 mt-3 text-2xl font-medium duration-500 rounded-md hover:bg-purpleMid hover:shadow-lg hover:shadow-purpleDarker hover:translate-y-1 bg-btnNormal">Ubicación</a>
+                        <p class="text-base">23390 La Paz, B.C.S.</p>
+                        <a href="https://maps.app.goo.gl/LvbWNfn1FcwEGyJW7" aria-label="ubicación de boda civil en maps" class="px-12 py-3 mt-3 text-2xl font-medium duration-500 rounded-md hover:bg-purpleMid hover:shadow-lg hover:shadow-purpleDarker hover:-translate-y-1 bg-btnNormal">Ubicación</a>
                     </div>
 
                     <!-- RECEPCION -->
@@ -146,7 +194,7 @@
                         <p class="mb-3 text-2xl">19:00 hrs.</p>
                         <p class="text-xl">Jardín Los Tamarindos.</p>
                         <p class="text-base">Cam. al Tezal, 23454 El Tezal, B.C.S.</p>
-                        <a href="https://maps.app.goo.gl/RdAJynn1dn75MeeJ9" class="px-8 py-3 mt-3 text-2xl font-medium duration-500 rounded-md hover:bg-purpleMid hover:shadow-lg hover:shadow-purpleDarker hover:translate-y-1 bg-btnNormal">Ubicación</a>
+                        <a href="https://maps.app.goo.gl/RdAJynn1dn75MeeJ9" aria-label="ubicación de recepción en maps" class="px-12 py-3 mt-3 text-2xl font-medium duration-500 rounded-md hover:bg-purpleMid hover:shadow-lg hover:shadow-purpleDarker hover:-translate-y-1 bg-btnNormal">Ubicación</a>
                     </div>
 
                     <!-- VESTIMENTA -->
@@ -166,12 +214,12 @@
         <div id="regalos" class="grid grid-cols-1 gap-6 p-8 laptop:p-20 laptop:gap-6 laptop:grid-cols-4 ipad:p-32 bg-offWhite">
             <div class="flex flex-col col-span-1 row-span-3 laptop:col-span-4 font-garamond text-btnNormal">
                 <h2 class="py-2 text-5xl text-center laptop:text-left hd:text-5xl font-garamond laptop:p-0">Opciones de regalos:</h2>
-                <p class="py-6 text-2xl text-center laptop:text-left laptop:text-3xl">Nuestro mejor regalo es compartir contigo este gran día, sí deseas obsequiarnos algo, te sugerimos las siguientes opciones:</p>
+                <p class="w-full py-6 text-2xl text-center laptop:text-left laptop:text-3xl">Nuestro mejor regalo es compartir contigo este gran día, sí deseas obsequiarnos algo, te sugerimos las siguientes opciones:</p>
                 <!-- VESTIMENTA -->
-                <div class="flex flex-col items-center">
+                <div class="flex flex-col items-center mt-6 ">
                     <img src="./assets/icons/noun-envelopes-229615.svg" alt="fecha de la boda" class="w-20 py-3 laptop:w-28">
                     <h3 class="py-2 text-3xl font-medium">· Lluvia de sobres ·</h3>
-                    <p class="text-2xl">La lluvia de sobres es la tradición de regalar dinero en efectivo dentro de un sobre el día del evento.</p>
+                    <p class="w-full py-6 text-2xl text-center laptop:pt-0 laptop:text-3xl">La lluvia de sobres es la tradición de regalar dinero en efectivo dentro de un sobre el día del evento.</p>
                 </div>
             </div>
         </div>
@@ -213,6 +261,8 @@
     </footer>
     <!-- END FOOTER -->
 
+    <!-- CONTADOR -->
+    <script src="./js/contador.js"></script>
 </body>
 
 </html>
