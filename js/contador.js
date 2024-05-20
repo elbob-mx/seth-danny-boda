@@ -25,6 +25,6 @@ var x = setInterval(function () {
 
     if (intervalo < 0) {
         clearInterval(x);
-        document.getElementById("nuevo").innerHTML = "· ¡Felicidades Seth & Danny! ·";
+        document.getElementById("nuevo").innerHTML = "· ¡Gracias por acompañarnos! ·";
     }
 }, 1000);
