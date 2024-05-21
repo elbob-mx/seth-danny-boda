@@ -1027,6 +1027,10 @@ video {
   font-weight: 600;
 }
 
+.font-light {
+  font-weight: 300;
+}
+
 .text-btnNormal {
   --tw-text-opacity: 1;
   color: rgb(41 37 71 / var(--tw-text-opacity));
