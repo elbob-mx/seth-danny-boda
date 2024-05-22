@@ -1299,6 +1299,10 @@ video {
     padding-top: 2.5rem;
   }
 
+  .laptop\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
   .laptop\:text-left {
     text-align: left;
   }
