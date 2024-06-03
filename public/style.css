@@ -692,6 +692,10 @@ video {
   height: 100vh;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -710,10 +714,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .max-w-full {
@@ -1151,18 +1151,6 @@ video {
     top: 8rem;
   }
 
-  .tablet\:top-20 {
-    top: 5rem;
-  }
-
-  .tablet\:top-36 {
-    top: 9rem;
-  }
-
-  .tablet\:top-44 {
-    top: 11rem;
-  }
-
   .tablet\:block {
     display: block;
   }
@@ -1177,16 +1165,6 @@ video {
 
   .tablet\:bg-transparent {
     background-color: transparent;
-  }
-
-  .tablet\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .tablet\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .tablet\:text-7xl {
@@ -1406,18 +1384,6 @@ video {
 }
 
 @media (min-width: 1023px) {
-  .ipad\:top-32 {
-    top: 8rem;
-  }
-
-  .ipad\:top-24 {
-    top: 6rem;
-  }
-
-  .ipad\:top-20 {
-    top: 5rem;
-  }
-
   .ipad\:top-16 {
     top: 4rem;
   }
@@ -1426,24 +1392,14 @@ video {
     padding: 8rem;
   }
 
-  .ipad\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .ipad\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
+  .ipad\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .ipad\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
-  }
-
-  .ipad\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 
