@@ -797,6 +797,10 @@ video {
   border-color: rgb(242 242 242 / var(--tw-border-opacity));
 }
 
+.border-transparent {
+  border-color: transparent;
+}
+
 .border-b-transparent {
   border-bottom-color: transparent;
 }
@@ -836,6 +840,30 @@ video {
 
 .bg-purpleDarker\/70 {
   background-color: rgb(61 54 140 / 0.7);
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-purpleMid\/60 {
+  background-color: rgb(138 113 214 / 0.6);
+}
+
+.bg-purpleMid\/75 {
+  background-color: rgb(138 113 214 / 0.75);
+}
+
+.bg-purpleMid\/70 {
+  background-color: rgb(138 113 214 / 0.7);
+}
+
+.bg-purpleDark\/75 {
+  background-color: rgb(85 78 148 / 0.75);
+}
+
+.bg-purpleDarker\/75 {
+  background-color: rgb(61 54 140 / 0.75);
 }
 
 .bg-auto {
@@ -1074,6 +1102,11 @@ video {
   color: rgb(61 54 140 / var(--tw-text-opacity));
 }
 
+.text-purpleMid {
+  --tw-text-opacity: 1;
+  color: rgb(138 113 214 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1188,6 +1221,29 @@ video {
 .focus\:ring-purpleDark:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(85 78 148 / var(--tw-ring-opacity));
+}
+
+@media (min-width: 767px) {
+  .tablet\:block {
+    display: block;
+  }
+
+  .tablet\:hidden {
+    display: none;
+  }
+
+  .tablet\:rounded-none {
+    border-radius: 0px;
+  }
+
+  .tablet\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .tablet\:text-purpleDarker {
+    --tw-text-opacity: 1;
+    color: rgb(61 54 140 / var(--tw-text-opacity));
+  }
 }
 
 @media (min-width: 976px) {
@@ -1407,6 +1463,58 @@ video {
 }
 
 @media (min-width: 1365px) {
+  .hd\:top-10 {
+    top: 2.5rem;
+  }
+
+  .hd\:top-32 {
+    top: 8rem;
+  }
+
+  .hd\:top-2 {
+    top: 0.5rem;
+  }
+
+  .hd\:top-80 {
+    top: 20rem;
+  }
+
+  .hd\:top-96 {
+    top: 24rem;
+  }
+
+  .hd\:top-72 {
+    top: 18rem;
+  }
+
+  .hd\:top-\[300px\] {
+    top: 300px;
+  }
+
+  .hd\:top-52 {
+    top: 13rem;
+  }
+
+  .hd\:top-56 {
+    top: 14rem;
+  }
+
+  .hd\:top-48 {
+    top: 12rem;
+  }
+
+  .hd\:block {
+    display: block;
+  }
+
+  .hd\:hidden {
+    display: none;
+  }
+
+  .hd\:p-0 {
+    padding: 0px;
+  }
+
   .hd\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -1415,6 +1523,11 @@ video {
   .hd\:py-60 {
     padding-top: 15rem;
     padding-bottom: 15rem;
+  }
+
+  .hd\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .hd\:text-3xl {

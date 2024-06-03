@@ -19,8 +19,8 @@
     <main>
         <!-- BANNER -->
         <section class="relative flex flex-col items-center justify-center h-screen">
-            <div class="absolute px-6 py-20 border-2 hd:px-20 hd:py-60 bg-btnNormal/30 border-offWhite">
-                <h1 class="text-4xl text-center font-paris ipad:text-7xl text-offWhite">Seth & Danny</h1>
+            <div class="absolute px-6 py-20 bg-transparent border-2 border-transparent hd:px-20 hd:py- hd:top-48">
+                <h1 class="p-6 text-5xl text-center rounded-lg bg-purpleDark/75 tablet:rounded-none hd:p-0 tablet:bg-transparent font-paris ipad:text-7xl tablet:text-purpleDarker text-offWhite">Seth & Danny</h1>
                 <h2 class="mt-3 text-2xl text-center rounded-lg bg-purpleDarker/70 laptop:mt-6 laptop:text-3xl font-garamond text-offWhite">· 17 · 8 · 24 ·</h2>
             </div>
 
@@ -28,7 +28,11 @@
                 <a href="#contador" aria-label="ir al contador" class="clear-both px-5 duration-500 rounded-full bg-purpleDark hover:shadow-lg hover:shadow-purple-300/70 hover:bg-purpleMid hover:text-btnNormal">↓</a>
             </div>
 
-            <img src="./assets/img/sdw-07B.jpg" alt="novios" class="object-cover object-center w-full h-screen">
+            <!-- DESKTOP  -->
+            <img src="./assets/img/sdw-02.jpg" alt="novios" class="hidden object-cover object-center w-full h-screen tablet:block">
+
+            <!-- MOBILE -->
+            <img src="./assets/img/sdw-07B.jpg" alt="novios" class="block object-cover object-center w-full h-screen tablet:hidden">
             <!-- END BANNER -->
         </section>
 
