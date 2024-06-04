@@ -1,4 +1,4 @@
-var cuentaRegresiva = new Date("08/17/2024 00:00 AM").getTime();
+var cuentaRegresiva = new Date("8/17/2024 00:00 AM").getTime();
 const mesesContador = document.getElementById("mes");
 const diasContador = document.getElementById("dia");
 const horasContador = document.getElementById("hora");
