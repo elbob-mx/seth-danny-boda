@@ -1,6 +1,6 @@
 var cuentaRegresiva = new Date("August 17, 2024 00:00").getTime();
 let mesesContador = document.getElementById("mes");
-let diasContador = document.getElementById("dia");
+let diasContador = document.getElementById("dias");
 let horasContador = document.getElementById("hora");
 let minutosContador = document.getElementById("minuto");
 let segundosContador = document.getElementById("segundo");
@@ -11,8 +11,8 @@ let x = setInterval(function () {
 
     let intervalo = cuentaRegresiva - hoy;
 
-    let meses = Math.floor(intervalo / (1000 * 60 * 60 * 24 * 30));
-    let dias = 30 % Math.floor(intervalo / (1000 * 60 * 60 * 24));
+    let meses = Math.floor(intervalo / (1000 * 60 * 60 * 24 * 30.437));
+    let dias = Math.floor(intervalo / (1000 * 60 * 60 * 24 * 30.437));
     let horas = Math.floor((intervalo % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutos = Math.floor((intervalo % (1000 * 60 * 60)) / (1000 * 60));
     let segundos = Math.floor((intervalo % (1000 * 60)) / 1000);
