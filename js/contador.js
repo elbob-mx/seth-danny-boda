@@ -12,7 +12,7 @@ let x = setInterval(function () {
     let intervalo = cuentaRegresiva - hoy;
 
     let meses = Math.floor(intervalo / (1000 * 60 * 60 * 24 * 30.437));
-    let dias = Math.floor(intervalo / (1000 * 60 * 60 * 24 * 30.437));
+    let dias = Math.floor(intervalo / ((1000 * 60 * 60 * 24 * 30.437) / 4));
     let horas = Math.floor((intervalo % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutos = Math.floor((intervalo % (1000 * 60 * 60)) / (1000 * 60));
     let segundos = Math.floor((intervalo % (1000 * 60)) / 1000);
