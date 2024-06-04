@@ -1,12 +1,12 @@
-var cuentaRegresiva = new Date("8/17/2024 00:00 AM").getTime();
-const mesesContador = document.getElementById("mes");
-const diasContador = document.getElementById("dia");
-const horasContador = document.getElementById("hora");
-const minutosContador = document.getElementById("minuto");
-const segundosContador = document.getElementById("segundo");
+var cuentaRegresiva = new Date("August 17, 2024 00:00").getTime();
+let mesesContador = document.getElementById("mes");
+let diasContador = document.getElementById("dia");
+let horasContador = document.getElementById("hora");
+let minutosContador = document.getElementById("minuto");
+let segundosContador = document.getElementById("segundo");
 
 // Update the count down every 1 second
-var x = setInterval(function () {
+let x = setInterval(function () {
     let hoy = new Date().getTime();
 
     let intervalo = cuentaRegresiva - hoy;
