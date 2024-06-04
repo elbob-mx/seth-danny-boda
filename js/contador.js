@@ -1,9 +1,9 @@
-var cuentaRegresiva = new Date("August 17, 2024 00:00").getTime();
-let mesesContador = document.getElementById("mes");
-let diasContador = document.getElementById("dias");
-let horasContador = document.getElementById("hora");
-let minutosContador = document.getElementById("minuto");
-let segundosContador = document.getElementById("segundo");
+let cuentaRegresiva = new Date("August 17, 2024 00:00").getTime();
+const mesesContador = document.getElementById("mes");
+const diasContador = document.getElementById("dias");
+const horasContador = document.getElementById("hora");
+const minutosContador = document.getElementById("minuto");
+const segundosContador = document.getElementById("segundo");
 
 // Update the count down every 1 second
 let x = setInterval(function () {
