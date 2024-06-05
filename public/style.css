@@ -619,6 +619,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -815,6 +819,11 @@ video {
   background-color: rgb(85 78 148 / 0.75);
 }
 
+.bg-purpleDarker {
+  --tw-bg-opacity: 1;
+  background-color: rgb(61 54 140 / var(--tw-bg-opacity));
+}
+
 .bg-purpleDarker\/70 {
   background-color: rgb(61 54 140 / 0.7);
 }
@@ -915,6 +924,10 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
 .pl-2 {
   padding-left: 0.5rem;
 }
@@ -998,6 +1011,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .text-btnNormal {
@@ -1395,6 +1412,16 @@ video {
   .ipad\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .ipad\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .ipad\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .ipad\:text-6xl {
